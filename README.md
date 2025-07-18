@@ -47,7 +47,7 @@ The **Legal Justice Website** serves as an online platform for a legal firm, ena
 ├── package.json
 └── README.md
 🌐 Live Demo
-🔗 Visit the Live Website
+🔗 Visit the Live Website – Legal Justice
 
 📷 Screenshots
 
@@ -74,18 +74,15 @@ git clone https://github.com/your-username/legal-justice-website.git
 cd legal-justice-website
 2. Install dependencies
 bash
-Copy
-Edit
+Copy Edit
 npm install
 3. Start the development server
 bash
-Copy
-Edit
+Copy Edit
 npm run dev
 4. Build for production
 bash
-Copy
-Edit
+Copy Edit
 npm run build
 📤 Deployment
 This project is deployed using Netlify. Just connect your GitHub repo and Netlify will automatically deploy on push.
