@@ -1,5 +1,10 @@
 # ⚖️ Legal Justice Website
 
+## 🌐 Live Demo
+
+[🔗 Visit the Live Website – Legal Justice](https://legaljustice.netlify.app/)
+
+
 A modern and responsive web application for a legal justice firm, built with **React.js**, **Tailwind CSS**, **Vite**, and deployed on **Netlify**. This project demonstrates full-stack web development skills through clean UI/UX, component-based architecture, and performance optimization.
 
 ## 📌 Project Overview
@@ -46,8 +51,6 @@ The **Legal Justice Website** serves as an online platform for a legal firm, ena
 ├── vite.config.js         # Vite configuration
 ├── package.json
 └── README.md
-🌐 Live Demo
-[🔗 Visit the Live Website – Legal Justice](https://legaljustice.netlify.app/)
 
 📷 Screenshots
 
