@@ -47,7 +47,7 @@ The **Legal Justice Website** serves as an online platform for a legal firm, ena
 ├── package.json
 └── README.md
 🌐 Live Demo
-🔗 Visit the Live Website – Legal Justice
+🔗 Visit the Live Website – Legal Justice(https://legaljustice.netlify.app/)
 
 📷 Screenshots
 
