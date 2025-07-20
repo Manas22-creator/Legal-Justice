@@ -28,7 +28,20 @@ body {
     color: var(--dark-text);
     background-color: var(--white-color);
     line-height: 1.7;
+    
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
@@ -330,7 +343,7 @@ p { color: var(--medium-text); }
     }
     /* Exception for Services page: 3 columns on small devices */
    .services-stats-bar {
-    grid-template-columns: 1fr 1fr 1fr !important;
+   
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
   }
@@ -679,6 +692,7 @@ p { color: var(--medium-text); }
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
+    overflow-x: hidden;
 }
 .core-values .card-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -810,6 +824,12 @@ textarea.form-control {
         right: 20px;
         z-index: 1101;
     }
+
+    .about-content {
+    grid-template-columns: 1fr !important;
+    padding: 0 15px;
+  }
+    
     .main-nav {
         position: fixed;
         top: 0;
@@ -850,7 +870,7 @@ textarea.form-control {
     }
     .hero .btn {
         display: block;
-        margin: 10px 0;
+        margin: 15px 15px;
     }
     .legal-process {
         grid-template-columns: 1fr;
@@ -863,4 +883,32 @@ textarea.form-control {
         justify-content: center;
         gap: 15px;
     }
+}
+
+@media (max-width: 400px) {
+  .card-grid {
+    grid-template-columns: 1fr !important;
+    padding: 0 10px;
+  }
+}
+
+
+/* Fix: Display stat-items in a row on large screens and stacked on small screens */
+.services-stats-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .services-stats-bar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
 }
