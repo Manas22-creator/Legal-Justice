@@ -425,7 +425,7 @@ p { color: var(--medium-text); }
     color: var(--white-color);
     text-align: center;
     padding: 80px 0;
-    background-image: url('src/assets/images/cta-bg.jpg'); /* Add a subtle background texture if desired */
+    background-image: url('/cta-bg.jpg'); /* Add a subtle background texture if desired */
     background-size: cover;
     background-position: center;
     position: relative;
