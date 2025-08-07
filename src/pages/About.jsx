@@ -49,7 +49,32 @@ const About = () => {
               <p>What sets us apart is our commitment to understanding each client's unique situation and crafting tailored strategies to achieve their specific goals. We believe that every individual and business deserves access to quality legal representation.</p>
               <p>Today, with over 500 successful cases and a 98% success rate, we continue to uphold the highest standards of legal excellence while maintaining the personal touch that our clients value most.</p>
             </div>
-            {/* The image from the original design would go here. For simplicity, we'll omit it, but you could add an <img /> tag. */}
+            {/* The image from the original design would go here. For simplicity, we'll omit it, but you could add an <img /> tag. */
+
+               <div class="about-stats">
+                        <div class="about-stat-item">
+                            <div class="icon"><i class="fa-solid fa-users"></i></div>
+                            <div class="number">500+</div>
+                            <div class="label">Happy Clients</div>
+                        </div>
+                        <div class="about-stat-item">
+                            <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                            <div class="number">98%</div>
+                            <div class="label">Success Rate</div>
+                        </div>
+                        <div class="about-stat-item">
+                            <div class="icon"><i class="fa-solid fa-business-time"></i></div>
+                            <div class="number">15+</div>
+                            <div class="label">Years Experience</div>
+                        </div>
+                        <div class="about-stat-item">
+                            <div class="icon"><i class="fa-solid fa-star"></i></div>
+                            <div class="number">4.9</div>
+                            <div class="label">Average Rating</div>
+                        </div>
+                    </div>
+              
+            }
           </div>
         </div>
       </section>
@@ -96,5 +121,6 @@ const About = () => {
     </>
   );
 };
+
 
 export default About;
