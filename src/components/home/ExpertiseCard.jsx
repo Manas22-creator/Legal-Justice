@@ -7,7 +7,7 @@ const ExpertiseCard = ({ iconClass, title, description, linkTo }) => {
       className="expertise-card"
       style={{
         backgroundColor: 'var(--white)',
-        padding: '40px',
+        // padding: '40px',
         border: '1px solid var(--border-color)',
         borderRadius: '12px',
         boxShadow: '0 4px 15px rgba(0, 0, 0, 0.05)',
@@ -47,3 +47,4 @@ const ExpertiseCard = ({ iconClass, title, description, linkTo }) => {
 };
 
 export default ExpertiseCard;
+
