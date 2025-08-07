@@ -365,8 +365,8 @@ p { color: var(--medium-text); }
 /* Testimonial & Generic Cards */
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
 }
 
 .testimonial-card {
