@@ -53,7 +53,7 @@ const Services = () => {
       {/* Services Grid Section */}
       <section className="section">
         <div className="container">
-          <div className="card-grid">
+          <div className="card-grid" style={{ gridTemplateColumns: '1fr 1fr', gap: '30px' }}>
             {servicesData.map((service, index) => (
               <ServiceItem key={index} {...service} />
             ))}
@@ -99,5 +99,6 @@ const Services = () => {
     </>
   );
 };
+
 
 export default Services;
